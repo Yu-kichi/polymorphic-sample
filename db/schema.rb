@@ -64,3 +64,4 @@ ActiveRecord::Schema.define(version: 2021_07_02_031015) do
   add_foreign_key "members", "projects"
   add_foreign_key "projects", "project_managers"
 end
+
